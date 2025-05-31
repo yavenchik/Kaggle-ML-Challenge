@@ -3,7 +3,7 @@ The purpose of the championship was to train an ML model to predict the bank cli
 My approach was to initially use the AutoGluon framework to determine the most suitable model. After installing this tool and handling all the library dependencies, the CatBoost model was chosen as the ultimate tool for the project. 
 Later on, I wrote a Python script fine-tuning CatBoost for the most accurate prediction configuration. The weakness, though, is insufficient EDA. Nevertheless, the model ran relatively successfully and I managed to reach the Top 7 final scores in this competition. 
 The code is structured in the following way:
-1. Library import;
+1. Importing libraries;
 2. Loading and processing the data;
 3. Setting hyperparameters;
 4. Training the final model;
