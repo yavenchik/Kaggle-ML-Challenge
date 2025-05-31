@@ -1,7 +1,7 @@
 # Kaggle-ML-Challenge
 The purpose of the championship was to train an ML model to predict the bank clients' churn rate in the best way basing on the training dataset. Also the test .csv-file as well as the sample submission one were available. The ROC AUC metric was leveraged as a measure of success.
 My approach was to initially use the AutoGluon framework to determine the most suitable model. After installing this tool and handling all the library dependencies, the CatBoost model was chosen as the ultimate tool for the project. 
-Later on, I wrote a Python script fine-tuning Catboost for the most accurate prediction configuration. The weakness, though, is insufficient EDA. Nevertheless, the model ran relatively successfully and I managed to reach the Top 7 final scores in this competition. 
+Later on, I wrote a Python script fine-tuning CatBoost for the most accurate prediction configuration. The weakness, though, is insufficient EDA. Nevertheless, the model ran relatively successfully and I managed to reach the Top 7 final scores in this competition. 
 The code is structured in the following way:
 1. Library import;
 2. Loading and processing the data;
